@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Temporary uploads (local file storage)
+uploads/
+
+# Coverage / testing
+coverage/
+*.lcov
+
+# Optional lock files (ignore one type if using another)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Misc
+tmp/
+temp/
